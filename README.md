@@ -15,5 +15,12 @@ This is a simple To-Do List Web App built using Flask and SQLite. It allows user
 - HTML/CSS (with Jinja2 templating)
 - SQLite
 
-
+File Struture 
+project/
+│
+├── templates/
+│ └── index.html # Frontend template
+│
+├── app.py # Main Flask application
+├── users.db # SQLite database (created after first run)
 
